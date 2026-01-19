@@ -23,26 +23,26 @@ The AI model is served locally using **Ollama**, enabling privacy-preserving, of
 
 ## 🏗️ Project Structure
 
+```text
 Mentat/
 ├── backend/
-│ ├── app/
-│ │ ├── api.py
-│ │ ├── llm.py
-│ │ ├── rag.py
-│ │ ├── embeddings.py
-│ │ ├── loaders.py
-│ │ ├── prompts.py
-│ │ ├── schemas.py
-│ │ └── main.py
-│ ├── requirements.txt
-│ └── .venv/
-│
+│   ├── app/
+│   │   ├── api.py
+│   │   ├── llm.py
+│   │   ├── rag.py
+│   │   ├── embeddings.py
+│   │   ├── loaders.py
+│   │   ├── prompts.py
+│   │   ├── schemas.py
+│   │   └── main.py
+│   ├── requirements.txt
+│   └── .venv/
 ├── mentat-ui/
-│ ├── src/
-│ ├── package.json
-│ └── vite.config.ts
-│
+│   ├── src/
+│   ├── package.json
+│   └── vite.config.ts
 └── README.md
+```
 
 ## ⚙️ Requirements
 
