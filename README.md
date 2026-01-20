@@ -22,7 +22,6 @@ The AI model is served locally using **Ollama**, enabling privacy-preserving, of
 ---
 
 ## 🏗️ Project Structure
-
 ```text
 Mentat/
 ├── backend/
@@ -43,7 +42,6 @@ Mentat/
 │   └── vite.config.ts
 └── README.md
 ```
-
 ## ⚙️ Requirements
 
 ### System Requirements
@@ -55,7 +53,7 @@ Mentat/
 
 ## 🧠 Backend Dependencies (Python)
 
-Installed via `pip` inside a virtual environment:
+Installed via `pip` i`nside a virtual environment:
 
 - fastapi
 - uvicorn\[standard\]

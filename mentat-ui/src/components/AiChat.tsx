@@ -86,7 +86,7 @@ export function AiChat() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-8 space-y-8 relative z-10">
+    <div className="w-full max-w-6xl p-8 space-y-8 relative z-10">
       {/* Header */}
       <div className="text-center space-y-3">
         <h1 className="text-white text-6xl font-bold tracking-tight">Mentat AI Helper</h1>
@@ -191,7 +191,7 @@ export function AiChat() {
           {answer && (
             <div className="space-y-3">
               <p className="text-lg font-semibold text-gray-200">Answer:</p>
-              <div className="text-base text-gray-300 whitespace-pre-wrap leading-relaxed">{answer}</div>
+              <div className="text-base text-gray-300 whitespace-pre-wrap leading-relaxed ">{answer}</div>
             </div>
           )}
         </Card>
