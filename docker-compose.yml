@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+    volumes:
+      - ./backend/app:/app/app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  frontend:
+    build: ./mentat-ui
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./mentat-ui:/app
+      - /app/node_modules
+    depends_on:
+      - backend

@@ -1,6 +1,7 @@
 fastapi
 uvicorn[standard]
 langchain
+langchain-ollama
 langchain-classic
 langchain-community
 langchain-text-splitters
